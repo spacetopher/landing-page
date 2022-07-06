@@ -1,24 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
     margin: 0;
     font-family: Roboto;
-    height: 100vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 
-
-
 .header {
     background-color: #1F2937;
-    color: #FFF;
+    color: #F9faf8;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0px 0px 0px 0px;
-    padding: 10px 70px 15px 75px;
+    padding: 20px 200px 50px 200px;
+    height: 460px;
+}
+
+.button {
+    padding: 8px;
 }
 
 .nav {
@@ -29,11 +31,12 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    padding-left: 10px;
 }
 
 .links {
     display: flex;
-    gap: 12px;
+    gap: 30px;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -41,49 +44,184 @@ body {
 .hero {
     display: flex;
     flex: 1;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .hero-main {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight:bolder;
+    display: flex;
+    flex: 1;
     padding: 10px;
-    margin: 10px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 15px;
+}
+
+.hero-secondary {
+    padding: 0px 10px 10px 10px;
+    font-size: 20px;
+    color: #E5E7EB;
+    font-weight: 100;
 }
 
 .hero-img {
-    padding: 20px;
+    padding: 20px 0px 20px 20px;
+}
+
+.top {
+    height: 40px;
+    width: 130px;
+    border: none;
+    font-size: 18px;
 }
 
 .info {
     background-color: #FFF;
+    color: #1f2937;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 50px 10px 50px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
     text-align: center;
+    flex-wrap: wrap;
+}
+
+.four {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 500px
+    width: 2000px;
+    height: auto;
+}
+
+.caption {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 10px;
+    color: green;
+}
+
+.img1, 
+.img2, .img3, .img4 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .quote {
     background-color: #E5E7EB;
+    color: #1f2937;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 350px 10px 350px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 36px;
+    flex-wrap: wrap;
+    font-style: italic;
+    font-weight: 100;
 }
+
+.author {
+    font-weight: 900;
+    text-align: right;
+    font-size: 26px;
+    font-style: normal;
+  }
 
 .action {
     background-color: #FFF;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 70px 10px 70px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.button-container {
+    background-color:#1F2937;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    width: 985px;
+    background-image: url("https://ak.picdn.net/shutterstock/videos/3344852/thumb/1.jpg");
+}
+
+.button-container-left {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+}
+
+.beta {
+    font-weight: 900;
+}
+
+.button-bottom {
+    display: flex;
+    align-items: center;
+    padding: 50px 50px 50px 50px;
+    margin: 0;
+    height: 40px;
+    width: 130px;
+    border: none;
+    font-size: 18px;
 }
 
 .footer {
     background-color: #1F2937;
     color: #FFF;
-}
-
-.four {
-    border-radius: 10%;
+    margin: 0px 0px 0px 0px;
+    padding: 30px 70px 30px 70px;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 button {
-background-color:dodgerblue;
+    background-color:deeppink;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    padding: 5px 5px;
+    height: 40px;
+    width: 130px;
+    font-size: 18px;
 }
 
 a {
     text-decoration: none !important;
     color: white;
+  }
+
+  img {
+    border-radius: 10%;
+    object-fit: cover;
+    border: 5px solid black;
   }
