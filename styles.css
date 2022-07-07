@@ -85,25 +85,41 @@ body {
     background-color: #FFF;
     color: #1f2937;
     margin: 0px 0px 0px 0px;
-    padding: 10px 50px 10px 50px;
-    height: 500px;
+    padding: 20px 200px 150px 200px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
     font-size: 20px;
     text-align: center;
     flex-wrap: wrap;
 }
 
-.four {
+.why {
+    font-size: 30px;
+    font-weight: 900;
+    flex: 1;
+    padding-top: 30px;
+}
+
+.container-thumb {
     display: flex;
-    flex-direction: row;
+    flex: 1;
+    gap: 40px;
+}
+
+.thumb {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
     justify-content: center;
     align-items: center;
-    height: 500px
-    width: 2000px;
-    height: auto;
+    align-content: center;
+    flex-wrap: wrap;
+    flex: 1;
 }
 
 .caption {
@@ -111,20 +127,10 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0;
-    padding: 10px;
-    color: green;
-}
-
-.img1, 
-.img2, .img3, .img4 {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    margin: 0px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
+    padding: 0px;
+    color: #1f2937;
+    flex: 1;
+    width: 195px;
 }
 
 .quote {
@@ -167,7 +173,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     height: 150px;
-    width: 985px;
+    width: 1020px;
     background-image: url("https://ak.picdn.net/shutterstock/videos/3344852/thumb/1.jpg");
 }
 
@@ -203,6 +209,7 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
+    font-size: 18px;
 }
 
 button {
@@ -223,5 +230,4 @@ a {
   img {
     border-radius: 10%;
     object-fit: cover;
-    border: 5px solid black;
   }
